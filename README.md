@@ -12,16 +12,16 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 
 ## Installation
 1. Clone this repository:
-   ```bash
+   ```npm
    git clone https://github.com/ArifAlee/JobsalertforNiki.git
    
 2. Install dependencies:
-   ```bash
+   ```npm
    npm install  # node-mailer, node-fetch@2
 
 ## Usage
 1. Run the script with
-   ```bash
+   ```npm
    node jobalert.js
 
 ## Configuration
@@ -34,17 +34,18 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 
 1. Response in terminal when script runs
 ![Screenshot of the response](Screenshots/response-example.PNG)
+<img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="300">
 
-2. Jobs found and email sent
+3. Jobs found and email sent
 ![Screenshot of jobs found response](Screenshots/jobsfound.PNG)
 
-3. No jobs found and email sent
+4. No jobs found and email sent
 ![Screenshot of no jobs found response](Screenshots/nonewjob.PNG)
 
-4. Gmail mail received alerting new job postings
+5. Gmail mail received alerting new job postings
 ![Screenshot of new jobs email](Screenshots/newjobs-email.PNG)
 
-5. Gmail mail received alerting no new jobs matching skillset was found
+6. Gmail mail received alerting no new jobs matching skillset was found
 ![Screenshot of no jobs email](Screenshots/nojobs-email.PNG)
 
 
