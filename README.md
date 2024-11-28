@@ -34,7 +34,7 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 
 1. Response in terminal when script runs
 ![Screenshot of the response](Screenshots/response-example.PNG)
-<img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="300">
+<img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="750">
 
 3. Jobs found and email sent
 ![Screenshot of jobs found response](Screenshots/jobsfound.PNG)
