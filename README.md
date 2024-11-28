@@ -33,20 +33,24 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 ## Below are some screenshots of the working app and it's results
 
 1. Response in terminal when script runs
-![Screenshot of the response](Screenshots/response-example.PNG)
-<img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="600">
+<img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="650">
 
 3. Jobs found and email sent
-![Screenshot of jobs found response](Screenshots/jobsfound.PNG)
+<img src="Screenshots/jobsfound.PNG" alt="Screenshot of jobs found response" width="650">
+
 
 4. No jobs found and email sent
-![Screenshot of no jobs found response](Screenshots/nonewjob.PNG)
+<img src="Screenshots/nonewjob.PNG" alt="Screenshot of no jobs found response" width="650">
+
 
 5. Gmail mail received alerting new job postings
 ![Screenshot of new jobs email](Screenshots/newjobs-email.PNG)
+<img src="Screenshots/newjobs-email.PNG" alt="Screenshot of new jobs email" width="650">
 
-6. Gmail mail received alerting no new jobs matching skillset was found
-![Screenshot of no jobs email](Screenshots/nojobs-email.PNG)
+
+7. Gmail mail received alerting no new jobs matching skillset was found
+<img src="Screenshots/nojobs-email.PNG" alt="Screenshot of no jobs email" width="650">
+
 
 
 
