@@ -44,7 +44,6 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 
 
 5. Gmail mail received alerting new job postings
-![Screenshot of new jobs email](Screenshots/newjobs-email.PNG)
 <img src="Screenshots/newjobs-email.PNG" alt="Screenshot of new jobs email" width="650">
 
 
