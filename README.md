@@ -22,7 +22,7 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 ## Usage
 1. Run the script with
    ```bash
-   node jobalerts.js
+   node jobalert.js
 
 ## Configuration
 1. Set job filters - visit https://theirstack.com/en/job-posting-api, you can create filters there and copy their api code and paste it into payload.json
