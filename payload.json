@@ -1,0 +1,26 @@
+{
+  "include_total_results": false,
+  "order_by": [
+    {
+      "desc": true,
+      "field": "date_posted"
+    }
+  ],
+  "posted_at_max_age_days": 15,
+  "job_country_code_or": [
+    "GB"
+  ],
+  "job_title_pattern_or": [
+    "press officer",
+    "junior press officer",
+    "publicity officer",
+    "communications executive", 
+    "Public Relations"
+  ],
+  "job_location_pattern_or": [
+    "London"
+  ],
+  "page": 0,
+  "limit": 10,
+  "blur_company_data": false
+}
