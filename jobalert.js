@@ -8,7 +8,7 @@ const headers = {
   Accept: "application/json",
   "Content-Type": "application/json",
   Authorization:
-    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqb2JhbGVydHNmb3JuaWtpQGdtYWlsLmNvbSIsInBlcm1pc3Npb25zIjoidXNlciJ9.4jftYCBeCOOUJKWD7Ni4gPvijS6dwoD8p7E0EcdRkJI", // Replace with actual token
+    "Bearer <token>", // Replace <token> with your token
 };
 
 // Load the payload for API request
@@ -48,7 +48,7 @@ const fetchJobs = async () => {
 
       if (newJobs.length > 0) {
         console.log(`${newJobs.length} new job(s) found.`);
-        sendEmail(newJobs);
+        sendEmail(newJobs); //email gets sent if job(s) found
         saveCurrentJobs(data.data.map((job) => job.id)); // Update the job list by id which will save it in previousJobsFile
       } else {
         noNewJobs(); // sends email that no new job has been found
@@ -70,15 +70,15 @@ const noNewJobs = () => {
     port: 465,
     secure: true,
     auth: {
-      user: "jobalertsforniki@gmail.com", //gmail account
-      pass: "bfjb cgyk vbyt qnbi", //enabling 'app password' for gmail works the best
+      user: "<your email>", //email account 
+      pass: "<your app pass>", //enabling 'app password' for gmail works the best
     },
   });
 
 //NO NEW JOBS EMAIL SENT TO ME COS NIKI WILL FIND IT ANNOYING
   const mailOptions = {
-    from: "jobalertsforniki@gmail.com", //email should match auth user
-    to: "arifalee241@gmail.com",
+    from: "<your email>", //email should match auth user
+    to: "<recipient email>",
     subject: "No new jobs",
     text: `Hi Niki,\n\nNo new jobs matching your skills found this week.\n\nKind regards,\n\nJobalertsforNiki Bot`,
   };
@@ -100,8 +100,8 @@ const sendEmail = (jobs) => {
     port: 465,
     secure: true,
     auth: {
-      user: "jobalertsforniki@gmail.com", 
-      pass: "bfjb cgyk vbyt qnbi", //use 'app password' for gmail
+      user: "<your email>", //your email
+      pass: "<your app pass>", //use 'app password' for gmail
     },
   });
 
@@ -111,8 +111,8 @@ const sendEmail = (jobs) => {
     .join("\n");
 
   const mailOptions = {
-    from: "jobalertsforniki@gmail.com", //email should match auth user
-    to: "nikideepak7@gmail.com",
+    from: "<your email>", //email should match auth user
+    to: "<recipient email>",
     subject: "New Job Alert!",
     text: `Hi Niki,\n\nHere are the latest jobs posted:\n\n${jobDescriptions}\n\nKind regards,\nJobalertsforNiki Bot`,
   };
