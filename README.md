@@ -32,11 +32,11 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 
 ## Below are some screenshots of the working app and it's results
 
-![Screenshot of the response](Screenshots/response-example.png)
-![Screenshot of jobs found response](Screenshots/jobsfound.png)
-![Screenshot of no jobs found response](Screenshots/nonewjob.png)
-![Screenshot of new jobs email](Screenshots/newjobs-email.png)
-![Screenshot of no jobs email](Screenshots/nojobs-email.png)
+![Screenshot of the response](Screenshots/response-example.PNG)
+![Screenshot of jobs found response](Screenshots/jobsfound.PNG) 
+![Screenshot of no jobs found response](Screenshots/nonewjob.PNG)
+![Screenshot of new jobs email](Screenshots/newjobs-email.PNG)
+![Screenshot of no jobs email](Screenshots/nojobs-email.PNG)
 
 
 
