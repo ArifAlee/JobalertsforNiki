@@ -35,19 +35,19 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 1. Response in terminal when script runs
 <img src="Screenshots/response-example.PNG" alt="Screenshot of the response" width="650">
 
-3. Jobs found and email sent
+2. Jobs found and email sent
 <img src="Screenshots/jobsfound.PNG" alt="Screenshot of jobs found response" width="650">
 
 
-4. No jobs found and email sent
+3. No jobs found and email sent
 <img src="Screenshots/nonewjob.PNG" alt="Screenshot of no jobs found response" width="650">
 
 
-5. Gmail mail received alerting new job postings
+4. Gmail mail received alerting new job postings
 <img src="Screenshots/newjobs-email.PNG" alt="Screenshot of new jobs email" width="650">
 
 
-7. Gmail mail received alerting no new jobs matching skillset was found
+5. Gmail mail received alerting no new jobs matching skillset was found
 <img src="Screenshots/nojobs-email.PNG" alt="Screenshot of no jobs email" width="650">
 
 
