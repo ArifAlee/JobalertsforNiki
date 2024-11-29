@@ -28,7 +28,7 @@ New jobs alerts I created for my girlfriend, script sends an email to recipient,
 1. Set job filters - visit https://theirstack.com/en/job-posting-api, you can create filters there and copy their api code and paste it into payload.json
 2. Configure API authorisation - "Bearer <your token>"
 3. Set up sendEmail() and noNewJobs(), with your email and password, having gmail's "app password" enabled is easier to (2FA required for this method)
-4. set up maiOptions, personalise your email
+4. set up mailOptions, personalise your email
 
 ## Below are some screenshots of the working app and it's results
 
